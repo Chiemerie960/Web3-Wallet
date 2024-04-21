@@ -1,0 +1,50 @@
+.PrivateKey-container {
+  padding-top: 2rem;
+}
+.PrivateKey-container .top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.top .logo {
+  color: white;
+  font-size: 3rem;
+}
+.top span p {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.top span p.small {
+  color: rgba(255, 255, 255, 0.356);
+  font-size: 14px;
+}
+.input, .next {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.input input {
+  width: 100%;
+  border-radius: 1rem;
+  padding: .5rem 1rem .5rem 1.3rem;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.next button {
+  width: 100%;
+  border-radius: 1rem;
+  padding: .5rem 1rem .5rem 1.3rem;
+  background-color: rgb(255, 149, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* margin-top: 1rem; */
+}
